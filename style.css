@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Poetsen+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+}
+
+body {
+  background-image: url('./assets/backgroundImage.avif');
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.842);
+}
+
+.container-button {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+button {
+  background-color: rgb(0, 214, 29);
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  height: 70px;
+  transition: opacity 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  justify-content: center;
+  gap: 20px;
+  padding: 0 10px;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+li {
+  border: 2px solid #8133ff;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+
+img {
+  max-width: 100%;
+  max-height: 250px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Poetsen One', cursive;
+  word-break: break-word;
+}
+
+.item-price {
+  font-weight: lighter;
+  font-size: 15px;
+  color: rgb(84, 255, 209);
+  margin-top: 5px;
+}
+
+.discount-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  width: 100%;
+  max-width: 1200px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.discount {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Poetsen One', cursive;
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .container-button {
+    gap: 15px;
+  }
+  button {
+    width: 120px;
+    height: 60px;
+    font-size: 13px;
+  }
+  ul {
+    gap: 15px;
+  }
+  li {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-button {
+    gap: 10px;
+    justify-content: center;
+  }
+  button {
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    padding: 6px;
+  }
+  ul {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+  }
+  li {
+    padding: 10px 5px;
+  }
+}
