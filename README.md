@@ -21,6 +21,7 @@
 
 <h2>🌍 Links Importantes:</h2>
 <ul>
-  <li>🔗 <strong>LinkedIn:</strong> <a href="https://github.com/ErikBdaSilva20/For_Burger" target="_blank">https://github.com/ErikBdaSilva20/For_Burger</a></li>
-  <li>🌐 <strong>Projeto no GitHub Pages:</strong> <a href="https://erikbdasilva20.github.io/For_Burger/" target="_blank">https://erikbdasilva20.github.io/For_Burger/</a></li>
+  <li>📂 <strong>Repositório no GitHub: </strong> <a href="https://github.com/ErikBdaSilva20/For_Burger" target="_blank"> https://github.com/ErikBdaSilva20/For_Burger</a></li>
+  <li>🌐 <strong>Projeto no GitHub Pages: </strong> <a href="https://erikbdasilva20.github.io/For_Burger/" target="_blank">https://erikbdasilva20.github.io/For_Burger/</a></li>
+  <li>🔗 <strong>LinkedIn: </strong> <a href="www.linkedin.com/in/erik-borgessilva20" target="_blank">www.linkedin.com/in/erik-borgessilva20</a></li>
 </ul>
