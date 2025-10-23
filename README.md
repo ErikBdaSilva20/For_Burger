@@ -19,9 +19,11 @@
   <li>📊 Exibe dados e interações com <code>forEach</code>.</li>
 </ul>
 
-<h2>🌍 Links Importantes:</h2>
-<ul>
-  <li>📂 <strong>Repositório no GitHub: </strong> <a href="https://github.com/ErikBdaSilva20/For_Burger" target="_blank"> https://github.com/ErikBdaSilva20/For_Burger</a></li>
-  <li>🌐 <strong>Projeto no GitHub Pages: </strong> <a href="https://erikbdasilva20.github.io/For_Burger/" target="_blank">https://erikbdasilva20.github.io/For_Burger/</a></li>
-  <li>🔗 <strong>LinkedIn: </strong> <a href="www.linkedin.com/in/erik-borgessilva20" target="_blank">www.linkedin.com/in/erik-borgessilva20</a></li>
-</ul>
+
+<h2>🌟 Links</h2>
+
+📂 Repositório no GitHub: [https://github.com/ErikBdaSilva20/For_Burger](https://github.com/ErikBdaSilva20/For_Burger)
+
+🌐 Projeto no GitHub Pages: [https://erikbdasilva20.github.io/For_Burger/](https://erikbdasilva20.github.io/For_Burger/)
+
+🔗 Perfil no LinkedIn: [https://www.linkedin.com/in/erik-borgessilva20](https://www.linkedin.com/in/erik-borgessilva20)
